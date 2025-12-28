@@ -1,23 +1,23 @@
 # Door Monitor Using a RPI
 A Raspberry Pi–based door monitoring system that detects door open/close events using a magnetic reed switch and sends real-time notifications via Discord.
 
-What it Does
+What it Does:
+
 	•	Detects when a door is opened or closed
-	
 	•	Sends Discord webhook notifications on state changes
 	•	Prevents notification spam using a cooldown system
 	•	Sends a warning notification if the door is left open too long
 	•	Runs fully on the Raspberry Pi (no laptop required after launch)
 
-Hardware
+Hardware:
+
 	•	Raspberry Pi Zero 2 W
-	
 	•	Magnetic reed switch
 	•	GPIO wiring
 
-Software / Tools
+Software / Tools:
+
 	•	Python 3
-	
 	•	gpiozero (GPIO handling)
 	•	requests (Discord webhook)
 	•	Threading for background checks
