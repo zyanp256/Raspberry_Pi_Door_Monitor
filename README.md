@@ -1,4 +1,4 @@
-# RPI-Door-Project
+# Door Monitor Using a RPI
 A Raspberry Pi–based door monitoring system that detects door open/close events using a magnetic reed switch and sends real-time notifications via Discord.
 
 What it Does
